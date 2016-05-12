@@ -38,3 +38,15 @@ Assuming Windows 10 or equivalent...
 - Shut down Visual Studio if you don't need it (if you're just working in the engine)
 - Start UE4 by clicking on `Build/Binaries/UE4Editor.exe` in the UnrealEngine repository.
 - If you did all the Linux steps, there should also be a `Linux` option under `File > Package Project` 
+
+UE 4.11.2 on Mac
+----------------
+
+- Follow the [official instructions](https://github.com/EpicGames/UnrealEngine#mac) up to and
+  including the `Product > Build` step.
+- Select the `ShaderCompileWorker` target in the title bar, then the `Product > Build` menu item.
+- Select the `UnrealLightmass` target in the title bar, then the `Product > Build` menu item.
+- Select the `CrashReporterClient` target in the title bar, then in the same title bar menu (reopen it) select `Edit Scheme...`, then selet the `Info` tab and set it to `Shipping`, then close the config sheet, then select the `Product > Build` menu item.
+
+The last three steps were discovered from
+[this AnswerHub entry](https://answers.unrealengine.com/questions/402203/custom-build-of-4111-crashes-on-load-unusable.html)
