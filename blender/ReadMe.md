@@ -15,8 +15,9 @@ that has had a bunch of settings tweaked so that it will work better when
 exporting to Unreal Engine 4.  Just copy it and use it as a starting place for
 new meshes you want to create.
 
-- Units are in metric
-- Scale has been set to `0.01` to correspond to UE4's default unit of 1cm
+- Units are in metric in the scene panel in the Property Editor 
+- Also in the scene panel, scale has been set to `0.01` to correspond to UE4's
+  default unit of 1cm
 - Clip End in `Properties > View` has been set to 1km to compensate for the
   above scale change
 - Clipping End on the camera has been set to 1000
